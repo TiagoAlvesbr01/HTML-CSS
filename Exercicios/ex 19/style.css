@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(156, 221, 221);
+    text-align: center;
+}
+h1  {
+    background-color: rgb(96, 206, 206);
+    text-align: center;
+}
+ h1#principal {
+    background-color: rgb(89, 89, 226);
+    text-align: left;
+ }
+.casa {
+    color: brown;
+}

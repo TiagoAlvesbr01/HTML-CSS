@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(183, 183, 252);
+            
+        
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+            box-shadow: 7px 8px 5px 5px rgba(0, 0, 0, 0.512);
+            border-radius: 5px;
+        
+        }
+
+        #principal {
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(241, 228, 228);
+            padding: 3px;
+            box-shadow: 7px 3px 7px 1px rgba(0, 0, 0, 0.52)
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(2, 18, 248);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+            border-radius:10px;
+            box-shadow: 7px 8px 5px 5px rgba(0, 0, 0, 0.514);
+        }
+
+        nav > a:hover {
+            text-decoration:underline;
+        }
+        article {
+            background-color: aquamarine;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(235, 226, 226);
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 251, 251);
+            text-align: center;
+            padding: 4px;
+            margin:10px
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+         
+        div#bola {
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+           <h1 id="principal">Meu site</h1>
+           <nav>
+            <a href="#">Casa</a>
+            <a href="#">Quarto</a>
+            <a href="#">Sala</a>
+            <a href="#">Banheiro</a>
+            <a href="#">Cozinha</a>
+           </nav>
+    </header>
+<main>
+    <section id="assuntos">
+        <p> MOTO CAMINHAO AVIAO BICICLETA</p>
+    </section>
+    <section id="noticias">
+             <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, officia sunt a voluptates ex similique natus vel eos, neque numquam reprehenderit perferendis porro dolores expedita eaque sapiente, blanditiis deserunt non.</p>
+                <aside> 
+                    <p>Artigo escrito por Tiago Alves</p>
+                </aside> 
+            </article>
+            <article>
+
+            </article>
+    </section>
+</main>
+<footer>
+    <p>Desenvolvido por Comercial Alves</p>
+</footer>
+<div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+         }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        } 
+
+        a:visited {
+            color:darkred;
+        }
+
+        a:hover {
+            color:pink;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color:yellow
+        }
+
+        a::after {
+            content:⇐;
+        }
+
+        a::before {
+            content:⇑;
+        }
+
+        .especial::before {
+            content: '->';
+        }
+
+        .especial::after {
+            content: '⇐';
+        }
+
+        .especial {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=23">Repositorio da china</a></li>
+        <li><a href="https://erikasarti.com/html/dingbats-simbolos-desenhos/" class="especial">Repositorio do japao</a></li>
+    </li>
+        <li><a href="https://onedrive.live.com/edit.aspx?resid=A404BB5E6833BB60!2331&cid=a404bb5e6833bb60&CT=1689066492691&OR=ItemsView">Repositorio de Londres</a></li>
+    </ul>
+</body>
+</html>
