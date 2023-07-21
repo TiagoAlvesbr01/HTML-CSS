@@ -3,4 +3,4 @@
 
 Este é o meu primeiro artigo.
 
-<a href="https://tiagoalvesbr01.github.io/HTML-CSS//Desafios/desafio%20do%20modulo%202/meusite.html/"> Executar o exercicio.</a>
+<a href="https://tiagoalvesbr01.github.io/HTML-CSS//Desafios/desafio do modulo 2/meusite.html"> Executar o exercicio.</a>
