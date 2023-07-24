@@ -1,0 +1,27 @@
+#charset "UTF-8"
+
+header {
+    height: 300px;   
+    width: 300px;
+    border:10px;
+    
+
+}
+
+body{
+     
+}
+
+#img1 {
+}
+
+main {
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
