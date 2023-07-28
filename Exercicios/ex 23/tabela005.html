@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .pirata {
+            background-color: red;
+        }
+
+        .marinheiro {
+            background-color: blue;
+        }
+
+        .revolucionario {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1> Exercicios de Tabelas</h1>
+
+    <table>
+        <colgroup>
+                 <col class="pirata">
+                 <col class="marinheiro">
+                 <col class="revolucionario" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Roger</td>
+            <td>M</td>
+            <td>55</td>
+            <td>Rei dos Piratas</td>
+        </tr>
+        <tr>
+            <td>Luffy</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Capitão</td>
+        </tr>
+        <tr>
+            <td>Zoro</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Espadachin</td>
+        </tr>
+        <tr>
+            <td>Sanji</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Cozinheiro</td>
+        </tr>
+        <tr>
+            <td>Jinbei</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Timoeiro</td>
+        </tr>
+    </table>
+</body>
+</html>
