@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Estilo em pé/portrait */
+
+body {
+    background-color: rgb(0, 0, 255);
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
